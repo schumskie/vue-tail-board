@@ -1,15 +1,35 @@
 {
   "name": "vue-tail-board",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue Admin Dashboard using tailwind.css",
-  "main": "dist/library.esm.js",
+  "author": "Stefan Jeremić",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/schumskie/vue-tail-board.git"
+  "main": "dist/library.esm.js",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "autoprefixer": "^9.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-postcss-config": "^2.0.0",
+    "rollup-plugin-vue": "^5.0.0",
+    "tailwindcss": "^1.0.4",
+    "vue-template-compiler": "^2.6.10"
   },
+  "bugs": {
+    "url": "https://github.com/schumskie/vue-tail-board/issues"
+  },
+  "homepage": "https://github.com/schumskie/vue-tail-board#readme",
   "keywords": [
     "vue",
     "admin",
@@ -17,10 +37,10 @@
     "dashboard",
     "tailwind"
   ],
-  "author": "Stefan Jeremić",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/schumskie/vue-tail-board/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schumskie/vue-tail-board.git"
   },
-  "homepage": "https://github.com/schumskie/vue-tail-board#readme"
+  "dependencies": {}
 }
