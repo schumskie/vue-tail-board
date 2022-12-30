@@ -13,16 +13,16 @@
     "dist/*"
   ],
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/eslint-config-prettier": "^4.0.1",
     "autoprefixer": "^9.6.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-postcss-config": "^2.0.0",
-    "rollup-plugin-vue": "^5.0.0",
+    "rollup-plugin-vue": "^6.0.0",
     "tailwindcss": "^1.0.4",
     "vue-template-compiler": "^2.6.10"
   },
